@@ -1,0 +1,155 @@
+#container{
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: auto;
+}
+
+.column{
+    background-image: url(../kodland/images/background.png);
+    background-repeat:no-repeat;
+    background-size: auto auto;
+    background-position:center;
+    height: 700px;
+    width: auto; 
+    background-color: #ffbe5b;
+
+}
+
+.column2{
+    flex-grow: 1;
+    min-height: 50px;
+    width: auto ;
+    background-color: white;
+    
+}
+
+.column3{
+    flex-grow: 1;
+    min-height: 100px;
+    width: auto ;
+    background-color: #AFEEEE;
+    padding-bottom: 50px;
+   
+}
+
+.column4{
+    background-image: url(../kodland/images/bg-grid.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position:center;
+    flex-grow: 1;
+    height: 500px;
+    width: auto; 
+
+   
+}
+
+.navbar{
+    background-color: #ffbe5b;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.example1{
+    position: relative;
+    top:160px
+}
+
+.big{
+    font-size: 190px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.underbig{
+    text-align: justify;
+    color: white;
+    padding-left:5px;
+    padding-right:40px;
+}
+
+.col2{
+    text-align: center;
+    position: relative;
+    padding: 100px 300px 100px 300px;
+
+}
+
+.quote{
+    font-weight: bolder;
+    position: relative;
+    top: 100px;
+}
+
+.card_content{
+    background-color: transparent;
+    width: 18rem;
+    border: 0;
+    text-align: center;
+    
+}
+
+.h1{
+    text-align: center;
+}
+
+.htext{
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.img.col3 {
+    width: 400px;
+    height: auto;
+}
+
+.col4{
+    position: relative;
+    top: 80px;
+    background-color: transparent;
+}
+
+.card-transparent{
+    background-color: transparent;
+
+}
+
+a{
+
+    margin-right: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+a.list1{
+    color:white;
+    text-align: left;
+    position: relative;
+    left: -50px;
+}
+
+a.list2{
+    color:gray;
+}
+
+.button {
+    background-color: #8fdae4;
+    border: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
